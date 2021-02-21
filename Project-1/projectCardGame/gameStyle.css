@@ -16,22 +16,18 @@ html, body{
     width: 100%;
     background-image: url("img2/background2.jpg");
     background-size: cover;
-    /*background-color: rgb(83, 83, 20);*/
-    /*border: 5px solid red;*/
     overflow: auto;
 }
 
 #row1, #row2, #row3 {
     height: 230px;
     width: auto;
-    /*border: 3px solid yellow;*/
     overflow: auto;
     margin: 0px auto;
 }
 
 .border{
     margin: 0px 0px 0px 55px;
-    /*border: 3px solid green;*/
     width: 8%;
     height: 160px;
     float: left;
@@ -41,10 +37,8 @@ html, body{
     clear: left;
     height: 10%;
     width: auto;
-    /*border: 2px solid lightgreen;*/
 }
 p{
-   /* border: 2px solid black;*/
     margin: 0;
     height: 50%;
     width: auto;
@@ -60,17 +54,15 @@ p{
         transform: translate(0%,0%);
     }
     25%{
-       /* background-color: rgb(6, 83, 111);*/
-        transform: translate(0%,100%);
+        transform: translate(0%,85%);
     }
     50%{
-        transform: translate(70%,100%);
+        transform: translate(70%,85%);
     }
     75%{
         transform: translate(70%,0%);
     }
     100%{
-        /*background-color: rgb(205, 117, 50);*/
         transform: translate(0%,0%);
     }
 }
@@ -102,150 +94,176 @@ p{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     overflow: auto;
-    transition-duration: 15s;
+    /*    This card img transition delay works on Chrome    */
+    -webkit-transition: background-image 0s; /*safari and chrome */
+    -webkit-transition-delay: 4s;
 }
                 /*------------- ROW 1 --------------------*/
 /*Card 1*/
 .border:hover #card1{
     background-image: url("img2/gokuMentor.png");
     /*transform: translate(40%,0%);*/
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 2*/
 .border:hover #card2{
     background-image: url("img2/KND4.png");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 3*/
 .border:hover #card3{
     background-image: url("img2/PerryPlatypus.png");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /* Card 4*/
 .border:hover #card4{
     background-image: url("img2/Tom&Jerry&Dog.jpg");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 5*/
 .border:hover #card5{
     background-image: url("img2/gokuPeace.jpg");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 6*/
 .border:hover #card6{
     background-image: url("img2/KNDall.jpg");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 7*/
 .border:hover #card7{
     background-image: url("img2/Phineas&Ferb.jpg");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 8*/
 .border:hover #card8{
     background-image: url("img2/Tom&JerryFight.jpg");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
                 /*---------- ROW 2 ----------------*/
 /*Card 9*/
 .border:hover #card9{
     background-image: url("img2/greenMan.jpg");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 10*/
 .border:hover #card10{
     background-image: url("img2/KNDevil.jpg");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 11*/
 .border:hover #card11{
     background-image: url("img2/Phineas&FerbRollerCoaster.jpg");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 12*/
 .border:hover #card12{
     background-image: url("img2/Tom&JerryLove.jpg");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 13*/
 .border:hover #card13{
     background-image: url("img2/Phineas&Ferb.jpg");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 14*/
 .border:hover #card14{
     background-image: url("img2/gokuPeace.jpg");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 15*/
 .border:hover #card15{
     background-image: url("img2/Tom&JerryFight.jpg");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 16*/
 .border:hover #card16{
     background-image: url("img2/KNDall.jpg");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
                 /*---------- ROW 3 ----------------*/
 /*Card 17*/
 .border:hover #card17{
     background-image: url("img2/gokuMentor.png");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 18*/
 .border:hover #card18{
     background-image: url("img2/KND4.png");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 19*/
 .border:hover #card19{
     background-image: url("img2/Tom&Jerry&Dog.jpg");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 20*/
 .border:hover #card20{
     background-image: url("img2/PerryPlatypus.png");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 21*/
 .border:hover #card21{
     background-image: url("img2/KNDevil.jpg");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 22*/
 .border:hover #card22{
     background-image: url("img2/greenMan.jpg");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 23*/
 .border:hover #card23{
     background-image: url("img2/Tom&JerryLove.jpg");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
 
 /*Card 24*/
 .border:hover #card24{
     background-image: url("img2/Phineas&FerbRollerCoaster.jpg");
-    animation: Ushape 2s forwards 1;
+    animation: Ushape 1.5s forwards 1;
+    transition-delay: 0s;
 }
