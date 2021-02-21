@@ -102,6 +102,7 @@ p{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     overflow: auto;
+    transition-duration: 15s;
 }
                 /*------------- ROW 1 --------------------*/
 /*Card 1*/
